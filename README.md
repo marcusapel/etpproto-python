@@ -65,7 +65,7 @@ Test
 
 Run tests with poetry
 ```console
-poetry run pytest -v --cache-clear -rf --cov=etpproto/ --cov-report=term --cov-report=html --maxfail=10
+pytest -v --cache-clear -rf --cov=etpproto/ --cov-report=term --cov-report=html --maxfail=10
 ```
 
 Test the code validity : 
